@@ -1,0 +1,7 @@
+projectKey=org.sonarqube:sonarscanner-maven-basic
+serverUrl=http://ee8-megan-us.ngrok.io
+serverVersion=9.0.0.45539
+branch=test
+dashboardUrl=http://ee8-megan-us.ngrok.io/dashboard?id=org.sonarqube%3Asonarscanner-maven-basic&branch=test
+ceTaskId=AXtzn_fgQBsFOppUb1ay
+ceTaskUrl=http://ee8-megan-us.ngrok.io/api/ce/task?id=AXtzn_fgQBsFOppUb1ay
