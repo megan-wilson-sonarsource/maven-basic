@@ -9,7 +9,7 @@ pipeline {
         stage('build && SonarQube analysis') {
             steps {
                 withSonarQubeEnv('sq1') {
-                        sh 'mvn clean package sonar:sonar'
+                        sh 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:latest:sonar'
                 }
             }
         }
