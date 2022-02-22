@@ -1,0 +1,12 @@
+pipeline{
+  agent { label 'linux' }
+  stages {
+    stage('Scan') {
+      steps {
+        withSonarQubeEnv(installationName: 'sq1') {
+          sh './mvn clean org.sonrsource.scanner.maven:sonar-maven-plugin:latest:sonar'
+        }
+      }
+    }
+  }
+}
