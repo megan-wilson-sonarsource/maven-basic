@@ -3,7 +3,7 @@ package com.acme.basic;
 public class HelloWorld {
 
   void sayHello() {
-    System.out.println("Hello Megan!");
+    System.out.println("Hello Classic!");
   }
 
   void notCovered() {
